@@ -13,7 +13,7 @@ logging.basicConfig(
 
 
 def main():
-    token = '875316307:AAGe7mmyjP3Rz3wvugxj-PSuZJ41B9-Nc8I'
+    token = 'YOUR TOKEN'
     updater = Updater(token=token, use_context=True)
     allhandlers = [CommandHandler('start', handler.start),
                    CommandHandler('clearall', handler.clear_all),
